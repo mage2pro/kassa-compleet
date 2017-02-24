@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<config
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='urn:magento:module:Magento_Store:etc/config.xsd'
+>
+    <default>
+		<df_payment>
+			<kassa_compleet>
+				<actionForNew>authorize_capture</actionForNew>
+				<actionForReturned>authorize_capture</actionForReturned>
+				<requireBillingAddress>1</requireBillingAddress>
+				<title>Kassa Compleet</title>
+				<title_backend>Kassa Compleet</title_backend>
+			</kassa_compleet>
+		</df_payment>
+        <payment>
+            <dfe_kassa_compleet>
+				<model>Dfe\kassaCompleet\Method</model>
+            </dfe_kassa_compleet>
+        </payment>
+    </default>
+</config>
