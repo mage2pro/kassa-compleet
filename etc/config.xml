@@ -15,7 +15,7 @@
 		</df_payment>
         <payment>
             <dfe_kassa_compleet>
-				<model>Dfe\kassaCompleet\Method</model>
+				<model>Dfe\KassaCompleet\Method</model>
             </dfe_kassa_compleet>
         </payment>
     </default>
