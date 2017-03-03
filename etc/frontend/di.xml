@@ -10,4 +10,7 @@
 			</argument>
 		</arguments>
 	</type>
+	<virtualType name='Dfe\KassaCompleet\ConfigProvider' type='Df\GingerPaymentsBase\ConfigProvider'>
+		<arguments><argument name='module' xsi:type='string'>Dfe_KassaCompleet</argument></arguments>
+	</virtualType>
 </config>
