@@ -153,10 +153,24 @@
 					<depends><field id='enable'>1</field></depends>
 				</field>
 				<field
+					id='metadata'
+					translate='label'
+					type='Df\Framework\Form\Element\Multiselect'
+					sortOrder='9'
+					showInDefault='1'
+					showInWebsite='1'
+					showInStore='1'
+				>
+					<label>Metadata</label>
+					<source_model>Df\Payment\Metadata</source_model>
+					<comment><![CDATA[It will be displayed in the Kassa Compleet Portal alongside the payment.]]></comment>
+					<depends><field id='enable'>1</field></depends>
+				</field>
+				<field
 					id='requireBillingAddress'
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
-					sortOrder='9'
+					sortOrder='10'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -170,7 +184,7 @@
 					id='min_order_total'
 					translate='label'
 					type='text'
-					sortOrder='10'
+					sortOrder='11'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -184,7 +198,7 @@
 					id='max_order_total'
 					translate='label'
 					type='text'
-					sortOrder='11'
+					sortOrder='12'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -198,7 +212,7 @@
 					id='country_restriction'
 					translate='label'
 					type='select'
-					sortOrder='12'
+					sortOrder='13'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -211,7 +225,7 @@
 					id='countries'
 					translate='label'
 					type='Df\Framework\Form\Element\Multiselect'
-					sortOrder='13'
+					sortOrder='14'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
