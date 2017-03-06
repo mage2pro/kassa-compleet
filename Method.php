@@ -11,9 +11,10 @@ final class Method extends \Df\GingerPaymentsBase\Method {
 	 * i.e. 17.50% should be sent as 1750.
 	 * "minimum": 0, "maximum": 10000».
 	 * @override
-	 * @see \Df\GingerPaymentsBase\Method::vatFactor()
+	 * @see \Df\GingerPaymentsBase\Method::vatIsInteger()
+	 * @used-by \Df\GingerPaymentsBase\Charge::pOrderLines()
 	 * @used-by \Df\GingerPaymentsBase\T\CreateOrder::t01_success()
 	 * @return int
 	 */
-	function vatFactor() {return 100;}
+	function vatIsInteger() {return true;}
 }
