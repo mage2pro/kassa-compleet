@@ -12,7 +12,7 @@ final class Method extends \Df\GingerPaymentsBase\Method {
 	 * "minimum": 0, "maximum": 10000».
 	 * @override
 	 * @see \Df\GingerPaymentsBase\Method::vatIsInteger()
-	 * @used-by \Df\GingerPaymentsBase\Charge::pOrderLines()
+	 * @used-by \Df\GingerPaymentsBase\Charge::pOrderLines_products()
 	 * @used-by \Df\GingerPaymentsBase\T\CreateOrder::t01_success()
 	 * @return int
 	 */
