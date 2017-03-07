@@ -11,7 +11,7 @@ final class Settings extends \Df\GingerPaymentsBase\Settings {
 	 * @used-by \GingerPayments\Payment\Client::createSepaOrder()
 	 * @return string
 	 */
-	function bankTransferCode() {return M::BANK_TRANSFER_ING;}
+	function bankTransferCode() {return M::BANK_TRANSFER_K;}
 
 	/**
 	 * 2017-02-26
