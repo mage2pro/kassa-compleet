@@ -140,10 +140,23 @@
 					</depends>
 				</field>
 				<field
-					id='description'
+					id='bankTransferCheckoutMessage'
 					translate='label'
 					type='textarea'
 					sortOrder='8'
+					showInDefault='1'
+					showInWebsite='1'
+					showInStore='1'
+				>
+					<label>Bank Transfer checkout message</label>
+					<comment><![CDATA[It will be displayed to a customer on the Magento checkout screen before an order placement.]]></comment>
+					<depends><field id='enable'>1</field></depends>
+				</field>
+				<field
+					id='description'
+					translate='label'
+					type='textarea'
+					sortOrder='9'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -156,7 +169,7 @@
 					id='metadata'
 					translate='label'
 					type='Df\Framework\Form\Element\Multiselect'
-					sortOrder='9'
+					sortOrder='10'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -170,7 +183,7 @@
 					id='requireBillingAddress'
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
-					sortOrder='10'
+					sortOrder='11'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -184,7 +197,7 @@
 					id='min_order_total'
 					translate='label'
 					type='text'
-					sortOrder='11'
+					sortOrder='12'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -198,7 +211,7 @@
 					id='max_order_total'
 					translate='label'
 					type='text'
-					sortOrder='12'
+					sortOrder='13'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -212,7 +225,7 @@
 					id='country_restriction'
 					translate='label'
 					type='select'
-					sortOrder='13'
+					sortOrder='14'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -225,7 +238,7 @@
 					id='countries'
 					translate='label'
 					type='Df\Framework\Form\Element\Multiselect'
-					sortOrder='14'
+					sortOrder='15'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
