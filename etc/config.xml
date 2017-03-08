@@ -8,6 +8,7 @@
 			<kassa_compleet>
 				<actionForNew>authorize_capture</actionForNew>
 				<actionForReturned>authorize_capture</actionForReturned>
+				<apiDomain>kassacompleet.nl</apiDomain>
 				<description>{store.domain} // {customer.name} // {order.id}</description>
 				<requireBillingAddress>1</requireBillingAddress>
 				<title>Kassa Compleet</title>
