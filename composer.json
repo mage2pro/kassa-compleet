@@ -16,9 +16,11 @@
 	,"keywords": [
 		"3D Secure"
 		,"API"
+		,"Bancontact"
 		,"Bank card"
 		,"Credit card"
 		,"eCommerce"
+		,"Germany"
 		,"iDEAL"
 		,"ING Bank"
 		,"Kassa Compleet"
@@ -31,5 +33,6 @@
 		,"Payment integration"
 		,"Payment gateway"
 		,"Refund"
+		,"SOFORT"
 	]
 }
