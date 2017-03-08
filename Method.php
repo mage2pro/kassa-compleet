@@ -1,7 +1,6 @@
 <?php
 // 2017-02-24
 namespace Dfe\KassaCompleet;
-use GingerPayments\Payment\Order\Transaction\PaymentMethod as GM;
 final class Method extends \Df\GingerPaymentsBase\Method {
 	/**
 	 * 2017-02-28
@@ -21,10 +20,11 @@ final class Method extends \Df\GingerPaymentsBase\Method {
 
 	/**
 	 * 2017-03-07
+	 * https://mage2.pro/t/3355/2
 	 * @override
 	 * @see \Df\GingerPaymentsBase\Method::bankTransferId()
 	 * @used-by \Df\GingerPaymentsBase\Method::optionT()
 	 * @return bool
 	 */
-	protected function bankTransferId() {return GM::BANK_TRANSFER_K;}
+	protected function bankTransferId() {return 'bank-transfer';}
 }

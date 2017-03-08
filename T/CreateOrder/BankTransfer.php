@@ -1,6 +1,5 @@
 <?php
 namespace Dfe\KassaCompleet\T\CreateOrder;
-use GingerPayments\Payment\Order\Transaction\PaymentMethod as M;
 // 2017-03-07
 final class BankTransfer extends \Df\GingerPaymentsBase\T\CreateOrder {
 	/**
@@ -10,5 +9,5 @@ final class BankTransfer extends \Df\GingerPaymentsBase\T\CreateOrder {
 	 * @used-by \Df\GingerPaymentsBase\T\CreateOrder::t01_success()
 	 * @return string
 	 */
-	protected function method() {return M::BANK_TRANSFER_K;}
+	protected function method() {return 'bank-transfer';}
 }
