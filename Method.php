@@ -17,14 +17,4 @@ final class Method extends \Df\GingerPaymentsBase\Method {
 	 * @return int
 	 */
 	function vatIsInteger() {return true;}
-
-	/**
-	 * 2017-03-07
-	 * https://mage2.pro/t/3355/2
-	 * @override
-	 * @see \Df\GingerPaymentsBase\Method::bankTransferId()
-	 * @used-by \Df\GingerPaymentsBase\Method::optionT()
-	 * @return bool
-	 */
-	protected function bankTransferId() {return 'bank-transfer';}
 }
