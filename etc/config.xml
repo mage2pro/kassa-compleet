@@ -8,9 +8,6 @@
 			<kassa_compleet>
 				<actionForNew>authorize_capture</actionForNew>
 				<actionForReturned>authorize_capture</actionForReturned>
-<!-- 2017-03-08
-https://github.com/mage2pro/ginger-payments-base/blob/0.3.2/Api.php?ts=4#L14 -->					
-				<apiDomain>kassacompleet.nl</apiDomain>
 				<btCheckoutMessage>You will see payment instructions on the order placement.</btCheckoutMessage>
 <!-- 2017-03-08
 https://github.com/mage2pro/ginger-payments-base/blob/0.3.3/Method.php?ts=4#L46 -->
@@ -24,6 +21,10 @@ https://github.com/mage2pro/ginger-payments-base/blob/0.3.3/Method.php?ts=4#L46 
 <li><b>City</b>: Amsterdam, NL</li>
 </ul>]]></btInstructions>
 				<description>{store.domain} // {customer.name} // {order.id}</description>
+<!-- 2017-03-08
+https://github.com/mage2pro/ginger-payments-base/blob/0.3.2/Api.php?ts=4#L14 -->
+				<domain>kassacompleet.nl</domain>
+				<portal>portal</portal>
 				<requireBillingAddress>1</requireBillingAddress>
 				<title>Kassa Compleet</title>
 				<title_backend>Kassa Compleet</title_backend>
