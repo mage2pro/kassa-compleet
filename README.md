@@ -1,8 +1,8 @@
 The extension integrates your Magento 2 store with the **[Kassa Compleet](https://www.ing.nl/zakelijk/betalen/geld-ontvangen/kassa-compleet/index.html)** payment service by ING Bank (the Netherlands). It [supports](https://mage2.pro/t/3248) iDEAL (the Netherlands), Bancontact (Belgium), bank cards, bank transfers, cash on delivery.
 
 ## Demo videos
-1. [Capture an **iDEAL** payment](https://mage2.pro/t/topic/3567).
-2. [Capture a **bank transfer** payment](https://mage2.pro/t/topic/3569).
+1. [Capture an **iDEAL** payment](https://mage2.pro/t/3567).
+2. [Capture a **bank transfer** payment](https://mage2.pro/t/3569).
 
 ## How to buy
 You can buy it with PayPal [here](https://mage2.pro/t/3199).  
@@ -28,7 +28,7 @@ Please read the [testing policy](https://mage2.pro/t/2590) before installation.
 ## Support
 - [The extension's **forum** branch](https://mage2.pro/c/extensions/kassa-compleet).
 - [Where and how to report a Mage2.PRO extension's issue?](https://mage2.pro/t/2034)
-- I also provide a **[generic Magento 2 support](https://mage2.pro/t/topic/755)** and [Magento 2 installation service](https://mage2.pro/t/748).
+- I also provide a **[generic Magento 2 support](https://mage2.pro/t/755)** and [Magento 2 installation service](https://mage2.pro/t/748).
 
 ## Want to be notified about the extension's updates?
 - [Subscribe](https://mage2.pro/t/2540) to the extension's [forum branch](https://mage2.pro/c/extensions/kassa-compleet).
