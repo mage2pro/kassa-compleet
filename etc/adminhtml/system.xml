@@ -15,7 +15,6 @@
 			<group
 				id='kassa_compleet'
 				translate='label'
-				type='text'
 				sortOrder='1101'
 				showInDefault='1'
 				showInWebsite='1'
