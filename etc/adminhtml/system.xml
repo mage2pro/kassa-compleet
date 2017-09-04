@@ -130,7 +130,10 @@
 					type='textarea'
 				>
 					<label>Description</label>
-					<comment><![CDATA[It will be displayed in the Kassa Compleet Portal alongside the payment.<br/>You can use <a href='https://mage2.pro/t/1834' target='_blank'>variables</a> in the description.]]></comment>
+					<comment><![CDATA[<p class='df-note'>It will be displayed to you in the Kassa Compleet Portal alongside the payment.</p>
+<p class='df-note'>You can use <a href='https://mage2.pro/t/1834' target='_blank'>some variables</a> in the description.</p>
+<p class='df-note'>The length <a href='https://mage2.pro/t/3411' target='_blank' title='[Kassa Compleet] The JSON Schema of a «POST /v1/orders/» request. See the «description» parameter.'>is not limited</a>.</p>
+]]></comment>
 					<depends><field id='enable'>1</field></depends>
 				</field>
 				<field
