@@ -95,10 +95,10 @@
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
 				>
-					<label>Limit Payment Options Availability?</label>
+					<label>Limit the payment options availability?</label>
 					<backend_model>Df\Config\Backend\Checkbox</backend_model>
 					<comment><![CDATA[If <b>checked</b>, only the specified options will be shown to a customer.<br/>If <b>unchecked</b>, all the <a href="https://mage2.pro/t/3300" target="_blank">enabled for you</a> in the Kassa Compleet Portal payment options will be shown to a customer.
-<br/>The «Limit Payment Options Availability?» checkbox is only shown to you in the production mode.
+<br/>The «Limit the payment options availability?» checkbox is only shown to you in the production mode.
 <br/>In the test mode, Kassa Compleet allows <a href="https://mage2.pro/t/3272" target="_blank">only the iDEAL and bank transer</a> options, and they are both will be shown to a test customer.]]></comment>
 					<depends>
 						<field id='enable'>1</field>
