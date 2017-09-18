@@ -4,6 +4,25 @@ The extension integrates your Magento 2 store with the **[Kassa Compleet](https:
 1. [Capture an **iDEAL** payment](https://mage2.pro/t/3567).
 2. [Capture a **bank transfer** payment](https://mage2.pro/t/3569).
 
+## Screenshots
+### 1. The frontend checkout screen
+![](https://mage2.pro/uploads/default/original/2X/9/919cbb6c0b4a2b9089c078ab6c67866261c77e04.png)
+
+### 2. The frontend «checkout success» screen for a bank transfer payment
+![](https://mage2.pro/uploads/default/original/2X/8/802d1315ca1cff505e783fd7c8225adffc3d9976.png)
+
+### 3. The «Order Information» → «Payment Method» block on the frontend order page for a bank transfer payment
+![](https://mage2.pro/uploads/default/original/2X/5/5745bb2f3356fe4cb0316bd5c45ee28d2131f5b1.png)
+
+### 4. The «Order Information» → «Payment Method» block on the frontend order page for an iDEAL payment
+![](https://mage2.pro/uploads/default/original/2X/9/9da2b4b3b5dd73c8bf7db7cb4c851ea85a755cbe.png)
+
+### 5. The «Payment Method» block on the backend order page for an iDEAL payment
+![](https://mage2.pro/uploads/default/original/2X/4/433214e15bc541fec2a6909e05b0ff10763532d8.png)
+
+### 6. The backend settings
+![](https://mage2.pro/uploads/default/original/2X/7/747edcde365f2bde02dd0edacb3bc2c939004176.png)
+
 ## How to buy
 You can buy it with PayPal [here](https://mage2.pro/t/3199).  
 
@@ -99,22 +118,3 @@ I provide a [custom payment gateway integration service](https://mage2.pro/t/917
 ## Want to get the full rights on my extension?
 It is possible: the price depends on a extension and starts from $6.990.  
 You will get free lifetime support, updates, and installation service for all your clients.
-
-## Screenshots
-### 1. The frontend checkout screen
-![](https://mage2.pro/uploads/default/original/2X/9/919cbb6c0b4a2b9089c078ab6c67866261c77e04.png)
-
-### 2. The frontend «checkout success» screen for a bank transfer payment
-![](https://mage2.pro/uploads/default/original/2X/8/802d1315ca1cff505e783fd7c8225adffc3d9976.png)
-
-### 3. The «Order Information» → «Payment Method» block on the frontend order page for a bank transfer payment
-![](https://mage2.pro/uploads/default/original/2X/5/5745bb2f3356fe4cb0316bd5c45ee28d2131f5b1.png)
-
-### 4. The «Order Information» → «Payment Method» block on the frontend order page for an iDEAL payment
-![](https://mage2.pro/uploads/default/original/2X/9/9da2b4b3b5dd73c8bf7db7cb4c851ea85a755cbe.png)
-
-### 5. The «Payment Method» block on the backend order page for an iDEAL payment
-![](https://mage2.pro/uploads/default/original/2X/4/433214e15bc541fec2a6909e05b0ff10763532d8.png)
-
-### 6. The backend settings
-![](https://mage2.pro/uploads/default/original/2X/0/04d8508e83a273a9cabf0a6ec32e36373b826fb6.png)
