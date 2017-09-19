@@ -153,7 +153,7 @@
 					type='textarea'
 				>
 					<label>Options Prompt</label>
-					<comment><![CDATA[A text above the Kassa Compleet payment options on the Magento checkout page.<br/>You can use the HTML tags. Also you set the desciption empty to hide it.]]></comment>
+					<comment><![CDATA[A text above the Kassa Compleet payment options on the Magento checkout page.<br/>You can use the HTML tags. Also you set the prompt empty to hide it.]]></comment>
 					<depends>
 						<field id='enable'>1</field>
 					</depends>
