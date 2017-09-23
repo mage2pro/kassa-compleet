@@ -106,6 +106,7 @@
 					</depends>
 				</field>
 				<field
+					dfMultiselect_ordered='true'
 					id='optionsAllowed'
 					showInDefault='1' showInStore='1' showInWebsite='1'
 					sortOrder='7'
@@ -114,7 +115,7 @@
 				>
 					<label>Allowed Payment Options</label>
 					<source_model>Dfe\KassaCompleet\Source\Option</source_model>
-					<comment><![CDATA[Only the selected options will be shown to the customers on the Magento checkout screen.]]></comment>
+					<comment><![CDATA[Only the selected options will be shown to the customers on the Magento checkout screen.<br/>You can <b>reorder</b> the options by drag and drop.]]></comment>
 					<validate>required-entry</validate>
 					<depends>
 						<field id='enable'>1</field>
