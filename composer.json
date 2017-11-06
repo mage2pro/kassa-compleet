@@ -1,7 +1,7 @@
 {
 	"name": "mage2pro/kassa-compleet"
 	,"version": "1.2.0"
-	,"description": "The «Kassa Compleet» payment extension for Magento 2."
+	,"description": "ING Kassa Compleet integration with Magento 2"
 	,"type": "magento2-module"
 	,"homepage": "https://mage2.pro/c/extensions/kassa-compleet"
 	,"license": "proprietary"
