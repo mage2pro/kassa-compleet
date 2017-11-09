@@ -1,4 +1,4 @@
-The extension integrates your Magento 2 store with the **[Kassa Compleet](https://www.ing.nl/zakelijk/betalen/geld-ontvangen/kassa-compleet/index.html)** payment service by ING Bank (the Netherlands). It [supports](https://mage2.pro/t/3248) iDEAL (the Netherlands), Bancontact (Belgium), bank cards, bank transfers, cash on delivery.
+The extension integrates your Magento 2 based webstore with the **[Kassa Compleet](https://www.ing.nl/zakelijk/betalen/geld-ontvangen/kassa-compleet/index.html)** payment service by ING Bank (the Netherlands). It [supports](https://mage2.pro/t/3248) iDEAL (the Netherlands), Bancontact (Belgium), bank cards, bank transfers, cash on delivery.
 
 ## Demo videos
 1. [Capture an **iDEAL** payment](https://mage2.pro/t/3567).
