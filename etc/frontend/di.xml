@@ -13,4 +13,6 @@
 	<virtualType name='Dfe\KassaCompleet\ConfigProvider' type='Df\GingerPaymentsBase\ConfigProvider'>
 		<arguments><argument name='module' xsi:type='string'>Dfe_KassaCompleet</argument></arguments>
 	</virtualType>
+	<virtualType name='Dfe\KassaCompleet\Controller\Confirm\Index' type='Df\Payment\W\Action'/>
+	<virtualType name='Dfe\KassaCompleet\Controller\CustomerReturn\Index' type='Df\Payment\CustomerReturn'/>
 </config>
