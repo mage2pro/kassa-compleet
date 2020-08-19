@@ -1,7 +1,7 @@
 <?php
 namespace Dfe\KassaCompleet\Source;
-// 2017-03-01
-// [Kassa Compleet] Available payment options: https://mage2.pro/t/3248
+# 2017-03-01
+# [Kassa Compleet] Available payment options: https://mage2.pro/t/3248
 /** @method static Option s() */
 final class Option extends \Df\GingerPaymentsBase\Source\Option {
 	/**

@@ -1,6 +1,6 @@
 <?php
 namespace Dfe\KassaCompleet\Test\CreateOrder;
-// 2017-03-07
+# 2017-03-07
 final class BankTransfer extends \Df\GingerPaymentsBase\Test\CreateOrder {
 	/**
 	 * 2017-03-07
