@@ -11,5 +11,5 @@ final class Option extends \Df\GingerPaymentsBase\Source\Option {
 	 * @used-by \Df\GingerPaymentsBase\Source\Option::map()
 	 * @return array(string => string)
 	 */
-	protected function mapExtra() {return ['cash-on-delivery' => 'Cash on Delivery'];}
+	protected function mapExtra():array {return ['cash-on-delivery' => 'Cash on Delivery'];}
 }
